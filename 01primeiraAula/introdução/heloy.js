@@ -1,1 +1,0 @@
-console.log("relou may nemy ys");

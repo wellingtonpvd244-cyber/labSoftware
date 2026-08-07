@@ -8,4 +8,11 @@
 // Calcule a vida restante do personagem após receber o dano.
 
 // Mostre no console concatenando as variáveis:
-// O personagem recebeu (danoSofrido) de dano e agora tem (vidaRestante) pontos de vida.
+// O personagem recebeu (danoSofrido) de dano e agora tem (vidaRestante) pontos de vid
+
+
+
+const pontosDeVida = 100;
+const danoSofrido = 80;
+
+console.log(`: ${danoSofrido} e : ${ pontosDeVida} `);

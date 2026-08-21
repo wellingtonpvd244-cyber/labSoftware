@@ -31,6 +31,30 @@ rl.question("Digite um número: ", (numero) => {
   numero = Number(numero);
 
   //REALIZE O EXERCÍCIO AQUI 🔽
+  
+ if(numero > 5){
+  console.log("grande de mais");
+ }
+ else if(numero < 1)
+ {
+  console.log("pequeno de mais");
+ }
+ else if(numero == 1){
+  console.log("um");
+ }
+  else if(numero == 2){
+  console.log("dois");
+ }
+  else if(numero == 3){
+  console.log("três");
+ }
+  else if(numero == 4){
+  console.log("quatro");
+ }
+  else if(numero == 5){
+  console.log("cinco");
+ }
+
 
   rl.close();
 });

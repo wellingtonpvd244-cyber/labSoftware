@@ -32,9 +32,18 @@ rl.question("Digite o resultado do primeiro dado: ", (dadoUm) => {
     dadoDois = Number(dadoDois);
 
     //REALIZE O EXERCÍCIO AQUI 🔽
+     let soma = (dadoUm + dadoDois)
 
-
-
+    if (dadoUm == dadoDois){
+      console.log("retome o dobro", soma * 2);
+    }
+    else{
+      console.log("caso a soma nao der certo", soma)
+    }
     rl.close();
   });
 });
+
+  
+
+  

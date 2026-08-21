@@ -59,6 +59,7 @@ rl.question("Digite o valor da compra em centavos: ", (a) => {
 
     //REALIZE O EXERCÍCIO AQUI 🔽
 
+    
     rl.close();
   });
 });

@@ -48,6 +48,10 @@ rl.question("Digite a primeira carta do jogador: ", (j1) => {
     j2 = Number(j2);
 
     //REALIZE O EXERCÍCIO AQUI 🔽
+    let soma = j1 + j2
+     if(soma > 21){
+      console.log("você estourou o limite");
+     }
 
     rl.close();
   });

@@ -53,9 +53,10 @@ rl.question("Digite seu modificador de ataque: ", (modificador) => {
     dificuldade = Number(dificuldade);
 
     // REALIZE O EXERCÍCIO AQUI 🔽
-
-
-
+   let ResultadoFinal= (valordado > modificador);
+    if (resultadofinal >= modificador){
+      console.log("o ataque e um sucesso ")
+    }
     rl.close();
   });
 });
